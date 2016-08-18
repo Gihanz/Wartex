@@ -1,0 +1,51 @@
+body {
+  padding-top: 50px;
+}
+.clear-top {
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.container{
+
+}
+/*.section-container{
+	border: 2px solid #E4E4E4; padding: 20px;
+}*/
+h2.form-header{     padding: 10px; margin: -10px -20px 20px -20px; background: #C5C5C5; color: #34495E; font-weight: bold; text-align: center; font-size: 25px;}
+.profile-image-container{ height: 200px; background: #EDEDED;}
+.profile-image-container img { display: block; margin-left: auto; margin-right: auto}
+.h20x{ height: 20px}
+.h100x{ height: 100px;}
+
+/**** boostrap Override ****/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{ background: #00A4F7; }
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{ color: #00A4F7 }
+.navbar-inverse { background-color: #EFEFEF;
+    border-bottom: 1px solid #D4D4D4;}
+.navbar-header img{ width: 60px}
+.navbar-inverse .navbar-nav>li>a { color: #C5C5C5}
+
+.form-inline .form-control{ border-radius: 0; border: 1px solid #BDC3C7; height: 35px;}
+
+.form-inline .form-control .search-box { width: 400px}
+.form-inline { padding-top: 7px;}
+.btn.search{ padding: 8px 20px; background: #009DEC}
+.form-group.search{ width: 400px}
+.form-group.search .form-control{ width: 400px}
+.result-box{ background: #ffffff; height: 250px; overflow: scroll; font-size: 12px; font-weight: normal; padding: 10px; border: 1px solid #EFEFEF;}
+.result-box p{ font-size: 12px}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{ margin-left: -42px; padding-top: 9px;}
+.result-container h2{padding: 9px; margin: -10px -10px 0 -10px; font-size: 16px; font-weight: normal;  background: #EFEFEF; border-bottom: 2px solid #EFEFEF; color: #666666;}
+
+footer{ margin: 0; padding: 0; background: #EFEFEF; border-top: 1px solid #D4D4D4; padding: 8px; text-align: center;}
+
+
+
+
+
+
+.scroll-x-container{ width: 100%; background: #fff; height: 510px; overflow-x: scroll;}
+.result-box{ width: 480px; height: 450px; background: #fff; float: left; margin: 5px}
+.result-container{ width: 1970px}
